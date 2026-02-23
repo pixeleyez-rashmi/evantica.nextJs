@@ -1,17 +1,17 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { RiArrowRightUpLine } from '@remixicon/react';
+import Image from "next/image";
+import Link from "next/link";
+import { RiArrowRightUpLine } from "@remixicon/react";
 
-import freelancerAboutShape from '../../../../assets/images/freelancer/freelancer-about-shape.png';
-import freelancerAbout3 from '../../../../assets/images/freelancer/freelancer-about3.jpg';
-import freelancerAboutShape1 from '../../../../assets/images/freelancer/freelancer-about-shape1.png';
-import freelancerAboutShape2 from '../../../../assets/images/freelancer/freelancer-about-shape2.png';
-import freelancerAboutShape3 from '../../../../assets/images/freelancer/freelancer-about-shape3.png';
-import freelancerAboutCircle from '../../../../assets/images/freelancer/freelancer-about-circle.png';
-import freelancerAbout2 from '../../../../assets/images/freelancer/freelancer-about2.jpg';
-import freelancerAbout1 from '../../../../assets/images/freelancer/freelancer-about1.jpg';
+import freelancerAboutShape from "../../../../assets/images/freelancer/freelancer-about-shape.png";
+import freelancerAbout3 from "../../../../assets/images/freelancer/freelancer-about3.jpg";
+import freelancerAboutShape1 from "../../../../assets/images/freelancer/freelancer-about-shape1.png";
+import freelancerAboutShape2 from "../../../../assets/images/freelancer/freelancer-about-shape2.png";
+import freelancerAboutShape3 from "../../../../assets/images/freelancer/freelancer-about-shape3.png";
+import freelancerAboutCircle from "../../../../assets/images/freelancer/freelancer-about-circle.png";
+import freelancerAbout2 from "../../../../assets/images/freelancer/freelancer-about2.jpg";
+import freelancerAbout1 from "../../../../assets/images/freelancer/freelancer-about1.jpg";
 
 export default function AboutSection() {
   return (
@@ -77,18 +77,23 @@ export default function AboutSection() {
             </p>
 
             <p className="text-gray-600 dark:text-gray-400 mb-7">
-              We are a team dedicated to helping creators, freelancers, and brands turn powerful ideas into meaningful outcomes.
-              With strategic thinking and refined execution, we transform concepts into real-world impact, empowering individuals
-              and teams to elevate their presence, sharpen their skills, and build stronger professional identities in today&apos;s
-              evolving digital landscape.
+              We are a team dedicated to helping creators, freelancers, and
+              brands turn powerful ideas into meaningful outcomes. With
+              strategic thinking and refined execution, we transform concepts
+              into real-world impact, empowering individuals and teams to
+              elevate their presence, sharpen their skills, and build stronger
+              professional identities in today&apos;s evolving digital
+              landscape.
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-10">
-              Our approach blends creativity, innovation, and precision — ensuring every project achieves measurable success while
+              Our approach blends creativity, innovation, and precision —
+              ensuring every project achieves measurable success while
               delivering an exceptional experience.
             </p>
 
             <Link
               href="#!"
+              dir="ltr"
               className="relative inline-flex overflow-hidden px-9 py-4 text-xl rounded-full bg-[#af49e5] text-white hover:text-black font-medium group"
             >
               <span className="absolute inset-y-0 left-0 w-1/4 bg-[#a0ffc2] rounded-full translate-y-[150%] transition-all duration-500 group-hover:translate-y-0 group-hover:scale-200" />
@@ -152,4 +157,3 @@ export default function AboutSection() {
     </section>
   );
 }
-

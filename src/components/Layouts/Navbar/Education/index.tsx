@@ -185,11 +185,11 @@ export default function EducationNavbar() {
           <div className="flex items-center gap-2">
             <Link
               href="#!"
+              dir="ltr"
               className="btn uppercase text-lg font-bold border bg-white text-black border-black rounded-full border-b-5 px-10 py-3 group relative overflow-hidden z-10 hidden md:block"
             >
               <span className="absolute top-1/2 left-1/2 w-0 h-0 bg-[#f5e900] rounded-full transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 group-hover:w-[562px] group-hover:h-[562px] -z-10"></span>
               <span>
-                {" "}
                 Join Now <RiArrowRightLongFill className="inline ms-1" />
               </span>
             </Link>

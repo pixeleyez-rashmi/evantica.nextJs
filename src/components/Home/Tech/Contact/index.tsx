@@ -24,14 +24,14 @@ export default function ContactSection() {
         </h2>
 
         <div className="grid grid-cols-12 gap-6 border border-black/30 dark:border-white/30 relative items-center bg-[#fff] dark:bg-black">
-          <div className="absolute top-[8px] ltr:left-[8px] rtl:right-[8px]  w-full h-full -bg-gradient-to-b from-[#2e0f53] to-[#592da8] -z-10" />
+          <div className="absolute top-[8px] ltr:left-[8px] rtl:right-[8px]  w-full h-full bg-gradient-to-b from-[#2e0f53] to-[#592da8] -z-10" />
 
           {/* Left contact info */}
           <div className="col-span-12 lg:col-span-4">
             <div className="p-8 pb-0 bg-[#f2f2f2] dark:bg-[#1a1a1a] h-full">
               <div className="flex gap-6 items-center flex-wrap xl:flex-nowrap">
-                <div className="-bg-gradient-to-b from-[#2e0f53] to-[#592da8] text-white z-10 relative w-16 h-16 flex items-center justify-center">
-                  <div className="absolute w-full h-full border-[#592da8] -z-10 top-[4px] left-[4px] border" />
+                <div className="bg-gradient-to-b from-[#2e0f53] to-[#592da8] text-white z-10 relative w-16 h-16 flex items-center justify-center">
+                  <div className="absolute w-full h-full border-[#592da8] z-10 top-[4px] left-[4px] border" />
                   <RiPhoneLine className="text-2xl" />
                 </div>
                 <div>
@@ -43,8 +43,8 @@ export default function ContactSection() {
               </div>
 
               <div className="flex gap-6 items-center flex-wrap xl:flex-nowrap mt-6">
-                <div className="-bg-gradient-to-b from-[#2e0f53] to-[#592da8] text-white z-10 relative w-16 h-16 flex items-center justify-center">
-                  <div className="absolute w-full h-full border-[#592da8] -z-10 top-[4px] left-[4px] border" />
+                <div className="bg-gradient-to-b from-[#2e0f53] to-[#592da8] text-white z-10 relative w-16 h-16 flex items-center justify-center">
+                  <div className="absolute w-full h-full border-[#592da8] z-10 top-[4px] left-[4px] border" />
                   <RiMailLine className="text-2xl" />
                 </div>
                 <div>
@@ -149,12 +149,13 @@ export default function ContactSection() {
 
               <button
                 type="submit"
+                dir="ltr"
                 className="btn rounded-none text-xl bg-[#592da8] p-4 px-8 text-white relative group mt-8"
               >
                 <span className="inline-flex items-center gap-2">
                   Submit Inquiry <RiArrowRightDoubleFill />
                 </span>
-                <span className="absolute border w-full h-full top-[7px] left-[7px] border-[#592da8] -group-hover:top-[-7px] -group-hover:left-[-7px] transition-all duration-300" />
+                <span className="absolute border w-full h-full top-[7px] left-[7px] border-[#592da8] group-hover:top-[-7px] group-hover:left-[-7px] transition-all duration-300" />
               </button>
             </form>
           </div>

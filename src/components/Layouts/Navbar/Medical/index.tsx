@@ -185,6 +185,7 @@ export default function MedicalNavbar() {
           <div className="flex items-center gap-2">
             <Link
               href="#!"
+              dir="ltr"
               className="relative md:inline-block hidden text-xl font-medium bg-[#1C2359] text-white rounded-full px-7 py-3 overflow-hidden group transition-all duration-300 hover:text-[#1C2359]"
             >
               <span className="relative z-10 flex items-center gap-1">

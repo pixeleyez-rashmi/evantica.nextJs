@@ -6,7 +6,7 @@ import moment from "moment";
 import AboutImage1 from "../../../../assets/images/medical/medical-about-1.jpg";
 import AboutImage2 from "../../../../assets/images/medical/medical-about-2.jpg";
 import AboutPoint1 from "../../../../assets/images/medical/medical-about-point.png";
-import { RiArrowRightLongLine } from "@remixicon/react";
+import ArrowRight from "../../../../assets/images/medical/arrow-right.png";
 
 export default function MedicalAboutSection() {
   // State for countdown timer
@@ -168,6 +168,7 @@ export default function MedicalAboutSection() {
 
                 <a
                   href="#!"
+                  dir="LTR"
                   className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#1C2359] rounded-md group"
                 >
                   <span className="absolute top-0 right-0 inline-block size-4 transition-all duration-500 ease-in-out bg-[#161C47] rounded group-hover:-mr-4 group-hover:-mt-4">
@@ -176,7 +177,11 @@ export default function MedicalAboutSection() {
                   <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-[#0F1436] rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
                   <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white inline-flex items-center gap-1">
                     Register Now
-                    <RiArrowRightLongLine className="group-hover:translate-x-1 transition-all duration-400" />
+                    <Image
+                      src={ArrowRight}
+                      alt=""
+                      className="transition-all duration-400 group-hover:translate-x-1 brightness-0 invert group-hover:brightness-0 group-hover:invert"
+                    />
                   </span>
                 </a>
               </div>

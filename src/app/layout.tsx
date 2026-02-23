@@ -95,7 +95,7 @@ export default function RootLayout({
               {children}
               <FooterWrapper />
             </SalWrapper>
-            <DirToggleButton /> {/* ✅ inside DirectionProvider */}
+            <DirToggleButton />
           </DirectionProvider>
         </ThemeProvider>
       </body>

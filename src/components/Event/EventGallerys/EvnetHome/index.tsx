@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import galleryBg from "../../../../assets/images/event/main-banner-bg.jpg";
 
-import arrowRight from "../../../../assets/images/event/right-arrow.png";
+import arrowRight from "../../../../assets/images/medical/arrow-right.png";
 import arrowDown from "../../../../assets/images/event/icons8-arrow-down.gif";
 
 export default function EventHome() {
@@ -53,7 +53,11 @@ export default function EventHome() {
               <p>
                 <a href="index.html">Home</a>
               </p>
-              <Image src={arrowRight} alt="" className="invert" />
+              <Image
+                src={arrowRight}
+                alt=""
+                className="transition-all duration-400 group-hover:translate-x-1 brightness-0 invert group-hover:brightness-0 group-hover:invert"
+              />
               <p>Event Gallery</p>
             </div>
           </div>

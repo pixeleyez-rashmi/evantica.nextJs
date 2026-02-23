@@ -214,14 +214,18 @@ export default function MusicScheduleSection() {
               className="flex gap-6 lg:justify-center flex-wrap"
             >
               {scheduleTypes.map((day, index) => (
-                <li key={index} role="presentation">
+                <li
+                  key={index}
+                  role="presentation"
+                  className={`${index !== 0 ? "border-s border-white/20 ps-6" : ""}`}
+                >
                   <button
                     role="tab"
                     aria-selected={activeTab === index}
                     aria-controls={`panel-${index + 1}`}
                     id={`tab-${index + 1}`}
                     onClick={() => setActiveTab(index)}
-                    className={`tab-btn ltr:border-r rtl:border-l pe-5 border-white/20`}
+                    className="tab-btn"
                   >
                     <h3 className="font-chivo mb-2">{day.day}</h3>
                     <p className="text-gray-300">{day.types}</p>
@@ -295,7 +299,10 @@ export default function MusicScheduleSection() {
                       <span className="absolute bottom-0 right-0 hidden w-12 h-24 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-[#33335a] -rotate-12"></span>
 
                       {/* <!-- Text --> */}
-                      <span className="relative flex items-center gap-2">
+                      <span
+                        className="relative flex items-center gap-2"
+                        dir="ltr"
+                      >
                         Book Ticket Now <RiExpandRightLine />
                       </span>
                     </a>

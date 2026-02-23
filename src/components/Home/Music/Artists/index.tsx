@@ -6,6 +6,8 @@ import {
   RiPlayFill,
   RiPauseFill,
   RiTwitterLine,
+  RiFacebookLine,
+  RiFacebookFill,
 } from "@remixicon/react";
 import Image from "next/image";
 import { useState } from "react";
@@ -196,7 +198,7 @@ export default function MusicArtistsSection() {
                           href="#!"
                           className="bg-[linear-gradient(120deg,#d9b3ff,#9b5de5,#7209b7)] inline-flex items-center justify-center size-10 rounded-xl"
                         >
-                          <RiFacebookBoxLine />
+                          <RiFacebookFill />
                         </a>
                       </div>
                     </div>

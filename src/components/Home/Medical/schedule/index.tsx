@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import {
+  RiArrowLeftUpLongLine,
   RiArrowRightUpLongLine,
   RiMapPinLine,
   RiTimeLine,
@@ -19,6 +20,7 @@ import schedule6 from "../../../../assets/images/medical/medical-schedule-6.jpg"
 import schedule7 from "../../../../assets/images/medical/medical-schedule-7.jpg";
 import schedule8 from "../../../../assets/images/medical/medical-schedule-8.jpg";
 import schedule9 from "../../../../assets/images/medical/medical-schedule-9.jpg";
+import { useDirection } from "@/src/components/common/DirectionProvider";
 
 interface ScheduleDay {
   day: string;
@@ -163,6 +165,7 @@ const day3Items: ScheduleItem[] = [
 ];
 
 export default function MedicalScheduleSection() {
+  const { dir } = useDirection();
   const [activeTab, setActiveTab] = useState(0);
 
   // Get current day's items
@@ -206,8 +209,9 @@ export default function MedicalScheduleSection() {
                   role="presentation"
                   className={`relative ${index !== scheduleDays.length - 1 ? "pr-3" : ""}`}
                 >
-                  {index !== scheduleDays.length - 1 && (
-                    <div className="absolute right-0 top-1/2 h-26 w-px transform -translate-y-1/2 -skew-x-12 border-r border-black/40"></div>
+                  {((dir !== "rtl" && index !== scheduleDays.length - 1) ||
+                    (dir === "rtl" && index !== 0)) && (
+                    <div className="absolute right-0 top-1/2 h-26 w-px transform -translate-y-1/2 -skew-x-12 border-r border-black/40 dark:border-white/40"></div>
                   )}
                   <button
                     role="tab"
@@ -215,7 +219,7 @@ export default function MedicalScheduleSection() {
                     aria-controls={`panel-${index + 1}`}
                     id={`tab-${index + 1}`}
                     onClick={() => setActiveTab(index)}
-                    className={`tab-btn p-4 text-center transition-all font-semibold  ${
+                    className={`tab-btn p-4 text-center transition-all font-semibold ${
                       activeTab === index
                         ? ""
                         : "text-gray-500 dark:text-gray-200"
@@ -279,7 +283,11 @@ export default function MedicalScheduleSection() {
                           >
                             <span className="absolute top-full left-0 w-full h-full bg-[#1FC5B1] transition-all duration-500 group-hover:top-0"></span>
 
-                            <RiArrowRightUpLongLine className="text-2xl relative z-10 transition-all duration-500 group-hover:text-white group-hover:[transform:rotateY(360deg)]" />
+                            {dir === "rtl" ? (
+                              <RiArrowLeftUpLongLine className="text-2xl relative z-10 transition-all duration-500 group-hover:text-white group-hover:[transform:rotateY(360deg)]" />
+                            ) : (
+                              <RiArrowRightUpLongLine className="text-2xl relative z-10 transition-all duration-500 group-hover:text-white group-hover:[transform:rotateY(360deg)]" />
+                            )}
                           </a>
                         </div>
 
@@ -328,7 +336,11 @@ export default function MedicalScheduleSection() {
                           >
                             <span className="absolute top-full left-0 w-full h-full bg-[#1FC5B1] transition-all duration-500 group-hover:top-0"></span>
 
-                            <RiArrowRightUpLongLine className="text-2xl relative z-10 transition-all duration-500 group-hover:text-white group-hover:[transform:rotateY(360deg)]" />
+                            {dir === "rtl" ? (
+                              <RiArrowLeftUpLongLine className="text-2xl relative z-10 transition-all duration-500 group-hover:text-white group-hover:[transform:rotateY(360deg)]" />
+                            ) : (
+                              <RiArrowRightUpLongLine className="text-2xl relative z-10 transition-all duration-500 group-hover:text-white group-hover:[transform:rotateY(360deg)]" />
+                            )}
                           </a>
                         </div>
 

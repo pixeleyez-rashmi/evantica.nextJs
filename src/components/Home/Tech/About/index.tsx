@@ -208,10 +208,11 @@ export default function AboutSection() {
 
             <button
               type="button"
+              dir="ltr"
               className="btn rounded-none text-xl bg-[#592da8] p-4 px-8 text-white relative group"
             >
               Discover now <RiArrowRightDoubleFill className="inline ms-2" />
-              <span className="absolute border w-full h-full top-[7px] left-[7px] border-[#592da8] -group-hover:top-[-7px] -group-hover:left-[-7px] transition-all duration-300" />
+              <span className="absolute border w-full h-full top-[-7px] left-[-7px] border-[#592da8] group-hover:top-[7px] group-hover:left-[7px] transition-all duration-300" />
             </button>
           </div>
         </div>

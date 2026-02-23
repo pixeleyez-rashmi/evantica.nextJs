@@ -123,6 +123,7 @@ export default function MusicBlogSection() {
                 <div className="p-7 border-t border-white/20 flex items-center gap-3 justify-between flex-wrap">
                   <a
                     href="#!"
+                    dir="ltr"
                     className="inline-flex items-center gap-2 text-white font-medium tracking-wide hover:text-purple-500 transition-colors duration-300 group"
                   >
                     Read More

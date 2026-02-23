@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { RiArrowRightUpLine } from '@remixicon/react';
+import Link from "next/link";
+import { RiArrowRightUpLine } from "@remixicon/react";
 
-import freelancerHomeBg from '../../../../assets/images/freelancer/freelancer-home-bg.jpg';
+import freelancerHomeBg from "../../../../assets/images/freelancer/freelancer-home-bg.jpg";
 
 export default function HomeSection() {
   return (
@@ -14,7 +14,7 @@ export default function HomeSection() {
       }}
     >
       <div className="absolute inset-0 bg-black/60" />
-      
+
       {/* SVG Wave at bottom */}
       <div className="z-20 absolute w-full bottom-0 left-0">
         <svg
@@ -43,7 +43,9 @@ export default function HomeSection() {
             data-sal-duration="800"
             data-sal-delay="300"
           >
-            A curated event bringing freelancers and creators together to network, learn, and unlock meaningful opportunities for growth and collaboration.
+            A curated event bringing freelancers and creators together to
+            network, learn, and unlock meaningful opportunities for growth and
+            collaboration.
           </p>
           <div
             className="mt-10 flex gap-6 flex-wrap justify-center"
@@ -53,6 +55,7 @@ export default function HomeSection() {
           >
             <Link
               href="#!"
+              dir="ltr"
               className="relative inline-flex overflow-hidden px-9 py-4 text-xl rounded-full border border-[#ffc394] text-[#ffc394] hover:text-black font-semibold group"
             >
               <span className="absolute inset-y-0 left-0 w-1/4 bg-[#ffc394] rounded-full translate-y-[150%] transition-all duration-500 group-hover:translate-y-0 group-hover:scale-200" />
@@ -67,6 +70,7 @@ export default function HomeSection() {
 
             <Link
               href="#!"
+              dir="ltr"
               className="relative inline-flex overflow-hidden px-9 py-4 text-xl rounded-full bg-[#a0ffc2] text-black font-semibold group"
             >
               <span className="absolute inset-y-0 left-0 w-1/4 bg-[#ffc394] rounded-full translate-y-[150%] transition-all duration-500 group-hover:translate-y-0 group-hover:scale-200" />

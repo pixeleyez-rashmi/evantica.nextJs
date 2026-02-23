@@ -6,10 +6,10 @@ import playlistBg from "../../../../assets/images/music/music-playlist-bg.jpg";
 import { RiPlayLargeFill, RiPauseFill, RiVolumeUpFill } from "@remixicon/react";
 
 import image1 from "../../../../assets/images/music/music-artist-1.jpg";
-import image2 from "../../../../assets/images/music/music-artist-2.jpg";
 import image3 from "../../../../assets/images/music/music-artist-3.jpg";
-import image4 from "../../../../assets/images/music/music-artist-4.jpg";
+import image6 from "../../../../assets/images/music/music-artist-6.jpg";
 import image9 from "../../../../assets/images/music/music-insta-3.jpg";
+import image13 from "../../../../assets/images/music/music-insta-2.jpg";
 import image10 from "../../../../assets/images/music/music-play-1.jpg";
 import image11 from "../../../../assets/images/music/music-play-2.jpg";
 import image12 from "../../../../assets/images/music/music-about-main.jpg";
@@ -37,31 +37,31 @@ const playlistData: PlaylistItem[] = [
     id: 1,
     image: image1,
     alt: "Artist 1",
-    singer: "Ariana Grande",
-    studio: "Republic Records",
+    singer: "Neon Beats",
+    studio: "Holly Studio",
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
   },
   {
     id: 2,
-    image: image4,
+    image: image6,
     alt: "Artist 2",
-    singer: "The Weeknd",
-    studio: "XO Records",
+    singer: "Solar Echo",
+    studio: "aurora studio",
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
   },
   {
     id: 3,
-    image: image2,
+    image: image13,
     alt: "Artist 3",
-    singer: "Taylor Swift",
-    studio: "Republic Records",
+    singer: "Midnight Bass",
+    studio: "wave studio",
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
   },
   {
     id: 4,
     image: image9,
-    alt: "Artist 4",
-    singer: "Drake",
+    alt: "Crimson Pulse",
+    singer: "Crimson Pulse",
     studio: "OVO Sound",
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
   },
@@ -69,32 +69,32 @@ const playlistData: PlaylistItem[] = [
     id: 5,
     image: image3,
     alt: "Artist 5",
-    singer: "Ed Sheeran",
-    studio: "Atlantic Records",
+    singer: "Electric Flow",
+    studio: "neon lab",
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
   },
   {
     id: 6,
     image: image12,
     alt: "Artist 6",
-    singer: "Billie Eilish",
-    studio: "Interscope Records",
+    singer: "Moonlight Drive",
+    studio: "lunar records",
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
   },
   {
     id: 7,
     image: image10,
     alt: "Artist 7",
-    singer: "Dua Lipa",
-    studio: "Warner Records",
+    singer: "Deep Vibes",
+    studio: "bass house",
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
   },
   {
     id: 8,
     image: image11,
     alt: "Artist 8",
-    singer: "Post Malone",
-    studio: "Republic Records",
+    singer: "Velvet Horizon",
+    studio: "echo house",
     audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
   },
 ];

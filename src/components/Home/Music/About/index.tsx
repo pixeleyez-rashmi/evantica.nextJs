@@ -140,6 +140,7 @@ export default function MusicAboutSection() {
               </div>
               <a
                 href="#!"
+                dir="ltr"
                 className="inline-flex items-center gap-2 mt-10 text-white font-medium tracking-wide hover:text-purple-500 transition-colors duration-300 group"
                 data-sal="slide-right"
                 data-sal-duration="800"

@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { RiAddLine } from '@remixicon/react';
+import Link from "next/link";
+import Image from "next/image";
+import { RiAddLine } from "@remixicon/react";
 
 // Import images
-import teamShape from '../../../../assets/images/business/business-team-shape.png';
-import user01 from '../../../../assets/images/avatar/user-01.jpg';
-import user02 from '../../../../assets/images/avatar/user-02.jpg';
-import user03 from '../../../../assets/images/avatar/user-03.jpg';
-import user04 from '../../../../assets/images/avatar/user-04.jpg';
+import teamShape from "../../../../assets/images/business/business-team-shape.png";
+import user01 from "../../../../assets/images/avatar/user-01.jpg";
+import user02 from "../../../../assets/images/avatar/user-02.jpg";
+import user03 from "../../../../assets/images/avatar/user-03.jpg";
+import user04 from "../../../../assets/images/avatar/user-04.jpg";
 
 interface Speaker {
   id: number;
@@ -21,26 +21,26 @@ interface Speaker {
 const speakers: Speaker[] = [
   {
     id: 1,
-    name: 'Jonathan Reed',
-    role: 'Conference Chair',
+    name: "Jonathan Reed",
+    role: "Conference Chair",
     image: user01,
   },
   {
     id: 2,
-    name: 'Alicia Martinez',
-    role: 'Keynote Speaker',
+    name: "Alicia Martinez",
+    role: "Keynote Speaker",
     image: user02,
   },
   {
     id: 3,
-    name: 'Samuel Lee',
-    role: 'Panel Moderator',
+    name: "Samuel Lee",
+    role: "Panel Moderator",
     image: user03,
   },
   {
     id: 4,
-    name: 'Priya Sharma',
-    role: 'Event Logistics',
+    name: "Priya Sharma",
+    role: "Event Logistics",
     image: user04,
   },
 ];
@@ -123,4 +123,3 @@ export default function SpeakerSection() {
     </section>
   );
 }
-

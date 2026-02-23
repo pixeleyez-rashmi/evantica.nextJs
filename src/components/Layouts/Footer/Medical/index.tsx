@@ -3,6 +3,7 @@ import logo from "../../../../assets/images/medical/medical-logo-light2.png";
 import {
   RiArrowRightLongLine,
   RiFacebookBoxFill,
+  RiFacebookFill,
   RiInstagramLine,
   RiTwitterLine,
   RiYoutubeLine,
@@ -173,7 +174,7 @@ export default function MedicalFooter() {
                     className="relative group border border-white/30 rounded-full inline-flex items-center justify-center size-13 overflow-hidden"
                   >
                     <span className="absolute top-full left-0 w-full h-full bg-[#1FC5B1] transition-all duration-500 group-hover:top-0"></span>
-                    <RiFacebookBoxFill className="text-lg group-hover:text-white transition-transform duration-500 group-hover:rotate-y-360" />
+                    <RiFacebookFill className="text-lg group-hover:text-white transition-transform duration-500 group-hover:rotate-y-360" />
                   </a>
 
                   <a

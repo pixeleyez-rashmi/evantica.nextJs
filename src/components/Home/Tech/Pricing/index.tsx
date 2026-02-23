@@ -144,6 +144,7 @@ export default function PricingSection() {
 
               <Link
                 href="#!"
+                dir="ltr"
                 className="btn rounded-none text-xl p-4 px-8 bg-[#592da8] text-white relative group inline-block"
               >
                 <span className="inline-flex items-center gap-2">

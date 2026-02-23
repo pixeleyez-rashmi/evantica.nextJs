@@ -3,6 +3,7 @@ import musicLogo from "../../../../assets/images/music/music-logo-light.png";
 import footrBg from "../../../../assets/images/music/music-footer-bg.jpg";
 import {
   RiFacebookBoxFill,
+  RiFacebookFill,
   RiInstagramFill,
   RiMailLine,
   RiMapPin2Line,
@@ -56,8 +57,7 @@ export default function MusicFooter() {
                     className="group relative bg-white rounded-full size-13 inline-flex items-center justify-center text-black transition-all duration-300 ease-out hover:rotate-6 hover:scale-110 hover:shadow-xl"
                   >
                     <span className="absolute inset-0 rounded-full border border-black/20 scale-75 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-300"></span>
-                    {/* <i className="ri-facebook-fill relative z-10 group-hover:animate-bounce"></i> */}
-                    <RiFacebookBoxFill className=" relative z-10 group-hover:animate-bounce" />
+                    <RiFacebookFill className=" relative z-10 group-hover:animate-bounce" />
                   </a>
 
                   <a
@@ -65,7 +65,6 @@ export default function MusicFooter() {
                     className="group relative bg-white rounded-full size-13 inline-flex items-center justify-center text-black transition-all duration-300 ease-out hover:rotate-6 hover:scale-110 hover:shadow-xl"
                   >
                     <span className="absolute inset-0 rounded-full border border-black/20 scale-75 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-300"></span>
-                    {/* <i className="ri-twitter-fill relative z-10 group-hover:animate-bounce"></i> */}
                     <RiTwitterFill className=" relative z-10 group-hover:animate-bounce" />
                   </a>
 
@@ -74,7 +73,6 @@ export default function MusicFooter() {
                     className="group relative bg-white rounded-full size-13 inline-flex items-center justify-center text-black transition-all duration-300 ease-out hover:rotate-6 hover:scale-110 hover:shadow-xl"
                   >
                     <span className="absolute inset-0 rounded-full border border-black/20 scale-75 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-300"></span>
-                    {/* <i className="ri-instagram-fill relative z-10 group-hover:animate-bounce"></i> */}
                     <RiInstagramFill className=" relative z-10 group-hover:animate-bounce" />
                   </a>
 
@@ -83,7 +81,6 @@ export default function MusicFooter() {
                     className="group relative bg-white rounded-full size-13 inline-flex items-center justify-center text-black transition-all duration-300 ease-out hover:rotate-6 hover:scale-110 hover:shadow-xl"
                   >
                     <span className="absolute inset-0 rounded-full border border-black/20 scale-75 opacity-0 group-hover:scale-110 group-hover:opacity-100 transition-all duration-300"></span>
-                    {/* <i className="ri-youtube-fill relative z-10 group-hover:animate-bounce"></i> */}
                     <RiYoutubeFill className=" relative z-10 group-hover:animate-bounce" />
                   </a>
                 </div>

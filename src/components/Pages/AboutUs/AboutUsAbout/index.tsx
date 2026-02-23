@@ -236,6 +236,7 @@ export default function AboutUSAbout() {
             </ul>
             <a
               href="#!"
+              dir="ltr"
               className="relative inline-block text-xl font-semibold border border-black dark:border-white text-black dark:text-white rounded-full px-7 py-3 overflow-hidden group hover:border-[#f2c944] dark:hover:text-black"
             >
               <span className="relative z-10 inline-flex items-center gap-1">

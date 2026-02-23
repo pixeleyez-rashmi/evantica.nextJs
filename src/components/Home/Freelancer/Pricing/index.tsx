@@ -305,16 +305,18 @@ export default function PricingSection() {
                   {/* Button */}
                   <Link
                     href="#!"
+                    dir="ltr"
                     className="relative inline-flex overflow-hidden px-9 py-4 text-xl rounded-full text-black font-medium group"
                     style={{ backgroundColor: plan.buttonBg }}
                   >
                     {[0, 1, 2, 3].map((i) => (
                       <span
                         key={i}
-                        className="absolute inset-y-0 translate-y-[150%] transition-all duration-500 group-hover:translate-y-0 group-hover:scale-200"
+                        className="absolute top-1/2 -translate-y-0 rounded-full translate-y-[150%] transition-all duration-500 group-hover:translate-y-[-50%] group-hover:scale-[200%]"
                         style={{
-                          left: `${i * 25}%`,
+                          left: `${i * 25 + 12.5}%`,
                           width: "25%",
+                          aspectRatio: "1",
                           backgroundColor: plan.buttonHoverColor,
                           transitionDelay: `${i * 100}ms`,
                         }}

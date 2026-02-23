@@ -9,6 +9,7 @@ import image3 from "../../../../assets/images/education/education-speaker-3.png"
 import image4 from "../../../../assets/images/education/education-speaker-4.png";
 import {
   RiFacebookBoxFill,
+  RiFacebookFill,
   RiInstagramFill,
   RiLinkedinFill,
   RiTwitterFill,
@@ -117,7 +118,7 @@ export default function SpeakerSection() {
                       className="size-10 hover:bg-[#9DD2CA] border border-b-3 border-r-3 transition-all duration-300 rounded-full flex items-center justify-center"
                       href="#!"
                     >
-                      <RiFacebookBoxFill />
+                      <RiFacebookFill />
                     </a>
                     <a
                       href="#!"

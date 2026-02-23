@@ -1,9 +1,9 @@
 "use client";
 
 import {
-  RiFacebookBoxFill,
+  RiFacebookFill,
   RiInstagramFill,
-  RiLinkedinBoxFill,
+  RiLinkedinFill,
 } from "@remixicon/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
@@ -141,7 +141,7 @@ export default function MedicalSpeakersSection() {
                       className="relative group border border-white/50 rounded-full inline-flex items-center justify-center size-10 overflow-hidden"
                     >
                       <span className="absolute top-full left-0 w-full h-full bg-[#1FC5B1] transition-all duration-500 group-hover:top-0"></span>
-                      <RiFacebookBoxFill className="text-lg text-white transition-transform duration-500 group-hover:rotate-360" />
+                      <RiFacebookFill className="text-lg text-white transition-transform duration-500 group-hover:rotate-360" />
                     </a>
                     <a
                       href={speaker.socialLink}
@@ -155,7 +155,7 @@ export default function MedicalSpeakersSection() {
                       className="relative group border border-white/50 rounded-full inline-flex items-center justify-center size-10 overflow-hidden"
                     >
                       <span className="absolute top-full left-0 w-full h-full bg-[#1FC5B1] transition-all duration-500 group-hover:top-0"></span>
-                      <RiLinkedinBoxFill className="text-lg text-white transition-transform duration-500 group-hover:rotate-360" />
+                      <RiLinkedinFill className="text-lg text-white transition-transform duration-500 group-hover:rotate-360" />
                     </a>
                   </div>
                 </div>

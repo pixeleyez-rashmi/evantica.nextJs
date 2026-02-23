@@ -159,6 +159,7 @@ export default function PricingSection() {
                   </ul>
                   <a
                     href="#!"
+                    dir="ltr"
                     className="btn uppercase w-full text-xl font-bold border bg-white dark:bg-black border-black dark:border-white dark:text-white dark:hover:text-black rounded-full border-b-5 px-13 py-4 group relative overflow-hidden z-10"
                   >
                     {/* Hover background effect */}

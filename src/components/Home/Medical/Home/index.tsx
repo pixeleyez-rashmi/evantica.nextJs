@@ -1,7 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import medicalHomeBg from "../../../../assets/images/medical/medical-home-bg.png";
-import { RiArrowRightLine } from "@remixicon/react";
+
+import ArrowRight from "../../../../assets/images/medical/arrow-right.png";
 
 export default function MedicalHomeSection() {
   return (
@@ -42,6 +44,7 @@ export default function MedicalHomeSection() {
             </p>
             <a
               href="#!"
+              dir="LTR"
               className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#1FC5B1] rounded-md group"
               data-sal="slide-up"
               data-sal-duration="800"
@@ -56,7 +59,11 @@ export default function MedicalHomeSection() {
                   inline-flex items-center gap-1"
               >
                 Join Medical Meet
-                <RiArrowRightLine className="group-hover:translate-x-1 transition-all duration-400" />
+                <Image
+                  src={ArrowRight}
+                  alt=""
+                  className="group-hover:translate-x-1 transition-all duration-400"
+                ></Image>
               </span>
             </a>
           </div>

@@ -199,6 +199,7 @@ export default function EventNavbar() {
             <div className="flex items-center gap-2">
               <Link
                 href="#!"
+                dir="LTR"
                 className="relative md:inline-block hidden text-xl font-semibold dark:bg-black dark:text-white bg-white text-black hover:text-black rounded-full px-7 py-3 overflow-hidden group transition-all duration-300"
               >
                 <span className="relative z-10">
