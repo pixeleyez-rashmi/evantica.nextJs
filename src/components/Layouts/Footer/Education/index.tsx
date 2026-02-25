@@ -263,7 +263,7 @@ export default function EducationFooter() {
         <div className="border-t border-white/70 dark:border-black/70 py-6">
           <div className="text-center text-gray-300 dark:text-gray-700">
             <span>
-              &copy; {currentYear} Evantica . Crafted & Designed by{" "}
+              &copy; {currentYear} Paxvent . Crafted & Designed by{" "}
               <Link
                 href="https://1.envato.market/srbthemes"
                 target="_blank"

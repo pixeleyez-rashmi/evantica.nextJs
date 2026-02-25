@@ -135,10 +135,10 @@ export default function BusinessFooter() {
                 <li className="flex gap-3 text-[20px]">
                   <span className="shrink-0 font-medium">Email :</span>
                   <Link
-                    href="mailto:evantica@gmail.com"
+                    href="mailto:paxvent@gmail.com"
                     className="text-gray-400 hover:text-[#c0f037] transition"
                   >
-                    evantica@gmail.com
+                    paxvent@gmail.com
                   </Link>
                 </li>
                 <li className="flex gap-3 text-[20px]">
@@ -165,7 +165,7 @@ export default function BusinessFooter() {
         <div className="border-t border-white/10 py-6">
           <div className="text-center text-gray-400 text-[20px]">
             <span>
-              &copy; {currentYear} Evantica .Crafted & Designed by{" "}
+              &copy; {currentYear} Paxvent .Crafted & Designed by
               <Link
                 href="https://1.envato.market/srbthemes"
                 target="_blank"

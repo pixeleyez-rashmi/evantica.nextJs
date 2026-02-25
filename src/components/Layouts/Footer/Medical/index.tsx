@@ -209,7 +209,7 @@ export default function MedicalFooter() {
           <div className="py-6 flex items-center justify-between gap-3 flex-wrap md:flex-nowrap">
             <p className="text-gray-300">
               <span>
-                &copy; <span id="currentYearFooter"></span>2026 Evantica .
+                &copy; <span id="currentYearFooter"></span>2026 Paxvent .
                 Crafted & Designed by{" "}
                 <a
                   href="https://1.envato.market/srbthemes"

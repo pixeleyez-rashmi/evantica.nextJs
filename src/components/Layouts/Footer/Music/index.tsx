@@ -231,7 +231,7 @@ export default function MusicFooter() {
             <div className="border-t border-white/70 py-8 relative">
               <div className="text-center text-gray-200">
                 <span>
-                  &copy; <span id="currentYearFooter"></span>2026 Evantica .
+                  &copy; <span id="currentYearFooter"></span>2026 Paxvent .
                   Crafted & Designed by{" "}
                   <a
                     href="https://1.envato.market/srbthemes"

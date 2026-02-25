@@ -1,11 +1,11 @@
 {
-  "name": "evantica-next-ts",
+  "name": "paxvent-next-ts",
   "version": "1.0.0",
   "type": "module",
-  "description": "evantica Next TS",
+  "description": "paxvent Next TS",
   "author": "SRBThemes",
   "keywords": [
-    "evantica",
+    "paxvent",
     "next.js",
     "typescript",
     "tailwindcss"

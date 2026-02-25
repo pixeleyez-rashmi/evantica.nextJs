@@ -12,8 +12,13 @@ import {
   RiPhoneFill,
   RiTwitterFill,
 } from "@remixicon/react";
+import { useEffect, useState } from "react";
 
 export default function EventFooter() {
+  const [currentYear, setCurrentYear] = useState<number>(2024);
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
   return (
     <>
       <footer className="relative bg-black dark:bg-white dark:text-black overflow-hidden text-white lg:mx-7 mx-2 rounded-3xl mb-7">
@@ -238,14 +243,14 @@ export default function EventFooter() {
                     </span>
 
                     <a
-                      href="mailto:evantica23@gmail.com"
+                      href="mailto:paxvent23@gmail.com"
                       className="relative inline-block overflow-hidden group"
                     >
                       <span className="block transition-transform duration-500 group-hover:-translate-y-full">
-                        evantica23@gmail.com
+                        paxvent23@gmail.com
                       </span>
                       <span className="absolute left-0 top-full block transition-transform duration-500 group-hover:-translate-y-full">
-                        evantica23@gmail.com
+                        paxvent23@gmail.com
                       </span>
                       <span className="absolute left-0 bottom-0 w-full h-px bg-current scale-x-0 origin-left transition-transform duration-500 group-hover:scale-x-100"></span>
                     </a>
@@ -282,8 +287,7 @@ export default function EventFooter() {
                 data-sal-duration="800"
                 data-sal-delay="200"
               >
-                &copy; <span id="currentYearFooter"></span> Evantica . Crafted &
-                Designed by{" "}
+                &copy; {currentYear} Paxvent . Crafted & Designed by
                 <a
                   href="https://1.envato.market/srbthemes"
                   target="_blank"

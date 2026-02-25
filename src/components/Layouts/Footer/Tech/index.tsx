@@ -218,7 +218,7 @@ export default function TechFooter() {
         <div className="py-6">
           <div className="flex flex-wrap justify-between gap-2">
             <p className="text-gray-300 text-[18px]">
-              &copy; {currentYear} Evantica . Crafted &amp; Designed by{" "}
+              &copy; {currentYear} Paxvent . Crafted &amp; Designed by{" "}
               <Link
                 href="https://1.envato.market/srbthemes"
                 target="_blank"
